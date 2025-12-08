@@ -1,0 +1,144 @@
+{
+  "source_base_path": "C:/Users/Nirjal/source/repos/ase-boose-assignment-Nirjal22/Medium Scale Software Engineering Project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.AppCanvas",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.AppCanvas.yml\" sourcestartlinenumber=\"1\">Represents a drawable canvas that supports basic drawing operations such as lines, shapes, and text.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Implement CommandFactory</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.Form1",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.Form1.yml\" sourcestartlinenumber=\"1\">Represents the main application form for the BOOSE (Basic Object Orientated Software Engineering)\ngraphical programming environment. This form provides a comprehensive interface for writing,\nexecuting, and debugging BOOSE programs with real-time visual feedback on a drawing canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
