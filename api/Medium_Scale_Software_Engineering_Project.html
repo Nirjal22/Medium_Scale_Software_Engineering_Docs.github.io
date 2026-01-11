@@ -101,14 +101,105 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.AppCommandFactory.html">AppCommandFactory</a></dt>
-      <dd><p>Implement CommandFactory</p>
+      <dd><p>Implement CommandFactory with support for all BOOSE commands</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.Form1.html">Form1</a></dt>
-      <dd><p>Represents the main application form for the BOOSE (Basic Object Orientated Software Engineering)
-graphical programming environment. This form provides a comprehensive interface for writing,
-executing, and debugging BOOSE programs with real-time visual feedback on a drawing canvas.</p>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MethodDefinition.html">MethodDefinition</a></dt>
+      <dd><p>Represents a method definition</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyCircle.html">MyCircle</a></dt>
+      <dd><p>MyCircle command - draws a circle with given radius, optionally filled.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyClear.html">MyClear</a></dt>
+      <dd><p>MyClear command - clears the canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyDrawTo.html">MyDrawTo</a></dt>
+      <dd><p>DrawTo command - draws a line from current position to specified (x,y) coordinates.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyForCommand.html">MyForCommand</a></dt>
+      <dd><p>MyForCommand class - represents a custom 'for' command.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyIfCommand.html">MyIfCommand</a></dt>
+      <dd><p>Implements the IF command with support for else and nested if statements</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyIntCommand.html">MyIntCommand</a></dt>
+      <dd><p>Implements the INT variable declaration and assignment command</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyMoveTo.html">MyMoveTo</a></dt>
+      <dd><p>MyMoveTo command - moves the current position to specified (x,y) coordinates without drawing.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyPen.html">MyPen</a></dt>
+      <dd><p>Pen command - sets the drawing pen color using RGB values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyRect.html">MyRect</a></dt>
+      <dd><p>MyRect command - draws a rectangle with specified width and height, optionally filled.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyReset.html">MyReset</a></dt>
+      <dd><p>MyReset command - resets the canvas and clears stored commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyTri.html">MyTri</a></dt>
+      <dd><p>MyTri command - draws a triangle with specified width and height.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyWhileCommand.html">MyWhileCommand</a></dt>
+      <dd><p>Implements the WHILE loop command</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.MyWrite.html">MyWrite</a></dt>
+      <dd><p>myWrite command - writes text on the canvas at the current pen position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.Program.html">Program</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.UnknownCommand.html">UnknownCommand</a></dt>
+      <dd><p>Command that does nothing for unknown commands
+Prevents exceptions during parsing</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.VariableStore.html">VariableStore</a></dt>
+      <dd><p>Singleton class that replaces BOOSE internal variable handling
+for Int, Real, Array, and Method types with unlimited capacity.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Medium_Scale_Software_Engineering_Project.IVariableStore.html">IVariableStore</a></dt>
+      <dd><p>Abstraction for variable storage and evaluation. Implemented by VariableStore.</p>
 </dd>
     </dl>
 

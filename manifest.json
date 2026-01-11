@@ -36,7 +36,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Medium_Scale_Software_Engineering_Project.AppCommandFactory",
-      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Implement CommandFactory</p>\n"
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Implement CommandFactory with support for all BOOSE commands</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -50,7 +50,259 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Medium_Scale_Software_Engineering_Project.Form1",
-      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.Form1.yml\" sourcestartlinenumber=\"1\">Represents the main application form for the BOOSE (Basic Object Orientated Software Engineering)\ngraphical programming environment. This form provides a comprehensive interface for writing,\nexecuting, and debugging BOOSE programs with real-time visual feedback on a drawing canvas.</p>\n"
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.IVariableStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.IVariableStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.IVariableStore",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.IVariableStore.yml\" sourcestartlinenumber=\"1\">Abstraction for variable storage and evaluation. Implemented by VariableStore.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MethodDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MethodDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MethodDefinition",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MethodDefinition.yml\" sourcestartlinenumber=\"1\">Represents a method definition</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyCircle",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyCircle.yml\" sourcestartlinenumber=\"1\">MyCircle command - draws a circle with given radius, optionally filled.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyClear",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyClear.yml\" sourcestartlinenumber=\"1\">MyClear command - clears the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyDrawTo",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyDrawTo.yml\" sourcestartlinenumber=\"1\">DrawTo command - draws a line from current position to specified (x,y) coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyForCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyForCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyForCommand",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyForCommand.yml\" sourcestartlinenumber=\"1\">MyForCommand class - represents a custom 'for' command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyIfCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyIfCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyIfCommand",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyIfCommand.yml\" sourcestartlinenumber=\"1\">Implements the IF command with support for else and nested if statements</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyIntCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyIntCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyIntCommand",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyIntCommand.yml\" sourcestartlinenumber=\"1\">Implements the INT variable declaration and assignment command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyMoveTo",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyMoveTo.yml\" sourcestartlinenumber=\"1\">MyMoveTo command - moves the current position to specified (x,y) coordinates without drawing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyPen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyPen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyPen",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyPen.yml\" sourcestartlinenumber=\"1\">Pen command - sets the drawing pen color using RGB values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyRect",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyRect.yml\" sourcestartlinenumber=\"1\">MyRect command - draws a rectangle with specified width and height, optionally filled.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyReset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyReset",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyReset.yml\" sourcestartlinenumber=\"1\">MyReset command - resets the canvas and clears stored commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyTri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyTri",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyTri.yml\" sourcestartlinenumber=\"1\">MyTri command - draws a triangle with specified width and height.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyWhileCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyWhileCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyWhileCommand",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyWhileCommand.yml\" sourcestartlinenumber=\"1\">Implements the WHILE loop command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.MyWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.MyWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.MyWrite",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.MyWrite.yml\" sourcestartlinenumber=\"1\">myWrite command - writes text on the canvas at the current pen position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.Program",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.UnknownCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.UnknownCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.UnknownCommand",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.UnknownCommand.yml\" sourcestartlinenumber=\"1\">Command that does nothing for unknown commands\nPrevents exceptions during parsing</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Medium_Scale_Software_Engineering_Project.VariableStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Medium_Scale_Software_Engineering_Project.VariableStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Medium_Scale_Software_Engineering_Project.VariableStore",
+      "Summary": "<p sourcefile=\"api/Medium_Scale_Software_Engineering_Project.VariableStore.yml\" sourcestartlinenumber=\"1\">Singleton class that replaces BOOSE internal variable handling\nfor Int, Real, Array, and Method types with unlimited capacity.</p>\n"
     },
     {
       "type": "ManagedReference",
